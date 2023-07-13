@@ -1,0 +1,27 @@
+Get the current working directory and the user name.
+Get the current date and time.
+Format the date and time.
+Display working directory, user name, and formatted datetime.
+
+Get the user's name.
+#Get three test scores from the user.
+score1 = user_input
+score2 = user_input
+score3 = user_input
+#Calculate the average test score.
+average_score = (score_1 + score_2 + score_3) / 3
+
+# Print the average test score and the letter grade.
+print(name + ", the average score is " + average_score)
+if (average_score >= 89):
+    letter_grade = "A"
+elif (average_score >= 79):
+    letter_grade = "B"
+elif (average_score >= 69):
+    letter_grade = "C"
+elif (average_score >= 59):
+    letter_grade = "D"
+else:
+    letter_grade = "F"
+
+Display letter grade.
